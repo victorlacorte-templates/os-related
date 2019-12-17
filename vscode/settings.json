@@ -3,8 +3,10 @@
     "workbench.settings.editor": "json",
     "telemetry.enableTelemetry": false,
 	"files.exclude": {
-			"**/.pytest_cache": true
-	},
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/*.egg-info": true
+    },
     "files.watcherExclude": {
         "**/.cache/**": true,
         "**/.git/objects/**": true,
