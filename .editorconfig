@@ -16,7 +16,7 @@ trim_trailing_whitespace = true
 insert_final_newline = false
 
 [*.md]
-max_line_length = 0
+indent_size = 4
 insert_trailing_whitespace = false
 
 [*.py]
@@ -25,6 +25,7 @@ indent_size = 4
 [CHANGELOG.md]
 indent_size = false
 
+# Don't wrap lines for Git commit messages
 [COMMIT_EDITMSG]
 max_line_length = 0
 
