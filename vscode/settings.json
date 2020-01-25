@@ -2,6 +2,11 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.settings.editor": "json",
     "telemetry.enableTelemetry": false,
+	"files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/*.egg-info": true
+    },
     "files.watcherExclude": {
         "**/.cache/**": true,
         "**/.git/objects/**": true,
