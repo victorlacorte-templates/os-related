@@ -17,6 +17,12 @@ set foldlevel=99
 nnoremap <space> za
 vnoremap <space> zf
 
+" Clipboard
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+noremap <Leader>Y "+y
+noremap <Leader>P "+p
+
 " Python: proper PEP8 indentation
 au BufNewFile,BufRead *.py
 		\ set tabstop=4 |
