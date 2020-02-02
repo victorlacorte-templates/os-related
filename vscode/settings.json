@@ -1,23 +1,33 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.settings.editor": "json",
-    "telemetry.enableTelemetry": false,
-	"files.exclude": {
-        "**/__pycache__": true,
-        "**/.pytest_cache": true,
-        "**/*.egg-info": true
-    },
-    "files.watcherExclude": {
-        "**/.cache/**": true,
-        "**/.git/objects/**": true,
-        "**/.git/subtree-cache/**": true,
-        "**/node_modules/**": true
-    },
-    "editor.renderWhitespace": "none",
-    "editor.renderControlCharacters": false,
-    "editor.minimap.enabled": false,
-    "editor.rulers": [
-      80
-    ],
-    "window.zoomLevel": 1
+  // https://code.visualstudio.com/docs/getstarted/settings
+  "editor.minimap.enabled": false,
+  "editor.rulers": [
+    80
+  ],
+  "files.exclude": {
+    // Default
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    // Python
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/*.egg-info": true,
+    // NextJS
+    "**/.next": true
+  },
+  "files.watcherExclude": {
+    // Default
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    // ?
+    "**/.cache/**": true
+  },
+  "telemetry.enableTelemetry": false,
+  "window.zoomLevel": 1,
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "newUntitledFile"
 }
