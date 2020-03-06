@@ -8,8 +8,9 @@ https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packa
 
 ## TODO
 
-https://github.com/VundleVim/Vundle.vim
+* https://github.com/VundleVim/Vundle.vim
 
+* https://github.com/jessfraz/dotfiles
 
 ## Linux Mint fresh install
 
@@ -34,7 +35,7 @@ to get a launcher with an icon:
 
 ```
 [Desktop Entry]
-Name=Firefox Developer 
+Name=Firefox Developer
 GenericName=Firefox Developer Edition
 Exec=/opt/firefox_dev/firefox %u
 Terminal=false
@@ -45,7 +46,7 @@ Comment=Firefox Developer Edition Web Browser.
 StartupWMClass=Firefox Developer Edition
 ```
 
-Then, 
+Then,
 
 `chmod +x ~/.local/share/applications/firefox_dev.desktop`
 `cd ~/Desktop && ln -s ~/.local/share/applications/firefox_dev.desktop .`
@@ -79,11 +80,19 @@ Remove the lines added to `~/.bashrc` since we want those lines in
 
 ### Current issues
 
-* cedilla -> US alt. intl. during installation
+* (done-ish) cedilla -> US alt. intl. during installation
 
 
 ## Arch + i3
 
 * https://github.com/Geigerkind/i3-wm-arch-linux-setup
+
+* https://dzone.com/articles/arch-linux-installation-on-hw-with-i3-windows-mana
+
+* https://wiki.archlinux.org/index.php/Dmenu
+
+* https://wiki.archlinux.org/index.php/NetworkManager
+
+* https://discourse.bigdaddylinux.com/t/archlinux-install-guide-2020-hardware-or-vm-video/424
 
 * https://dzone.com/articles/arch-linux-installation-on-hw-with-i3-windows-mana
