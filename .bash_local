@@ -11,11 +11,14 @@ PS1="${GREEN}[\W]${BLUE}\$(__git_ps1)\$${RESET} "
 
 EDITOR=$(which vim)
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 alias cal='cal -3'
 alias ll='ls -alF'
 alias rm='rm -i'
+
+# Non-default programs
+alias xclip='xclip -selectioin clipboard'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 

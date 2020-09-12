@@ -33,6 +33,15 @@ au BufNewFile,BufRead *.py
 		\ set autoindent |
 		\ set fileformat=unix
 
+au BufNewFile,BufRead *.html,*.js,*.ts
+		\ set tabstop=2 |
+		\ set softtabstop=2 |
+		\ set shiftwidth=2 |
+		\ set textwidth=100 |
+		\ set expandtab |
+		\ set autoindent |
+		\ set fileformat=unix
+
 " http://stackoverflow.com/a/26685437
 highlight ColorColumn ctermbg=red
 " call matchadd('ColorColumn', '\%80v', 100)
