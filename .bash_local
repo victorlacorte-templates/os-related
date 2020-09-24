@@ -13,12 +13,33 @@ EDITOR=$(which vim)
 
 alias cal='cal -3'
 alias ll='ls -alF'
+alias open='xdg-open'
 alias rm='rm -i'
 
 # Non-default programs
+
 alias xclip='xclip -selectioin clipboard'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# The next line updates PATH for the Google Cloud SDK.
+# if [ -f '/mnt/Stuff/google-cloud-sdk/path.bash.inc' ]; then . '/mnt/Stuff/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+# if [ -f '/mnt/Stuff/google-cloud-sdk/completion.bash.inc' ]; then . '/mnt/Stuff/google-cloud-sdk/completion.bash.inc'; fi
+
+# https://unix.stackexchange.com/a/186167
+function set-title() {
+  if [[ -z "$ORIG" ]]; then
+    ORIG=$PS1
+  fi
+  TITLE="\[\e]2;$@\a\]"
+  PS1=${ORIG}${TITLE}
+}
+
+# https://cloud.google.com/sdk/gcloud/reference/topic/startup
+# For whatever reason I was unable to build Docker images via docker-compose
+# without this variable in the PATH
+# export CLOUDSDK_PYTHON=/usr/bin/python
