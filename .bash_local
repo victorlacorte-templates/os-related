@@ -18,7 +18,7 @@ alias rm='rm -i'
 
 # Non-default programs
 
-alias xclip='xclip -selectioin clipboard'
+alias xclip='xclip -selection clipboard'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
