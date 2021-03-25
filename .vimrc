@@ -5,6 +5,9 @@ syntax on
 colorscheme molokai
 
 set number
+autocmd InsertEnter * :set relativenumber
+autocmd InsertLeave * :set norelativenumber
+
 set noexpandtab
 set tabstop=4
 set textwidth=79
@@ -18,10 +21,10 @@ nnoremap <space> za
 vnoremap <space> zf
 
 " Clipboard
-noremap <Leader>y "+y
-noremap <Leader>p "+p
-noremap <Leader>Y "*y
-noremap <Leader>P "*p
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+noremap <Leader>Y "+y
+noremap <Leader>P "+p
 
 " Python: proper PEP8 indentation
 au BufNewFile,BufRead *.py
