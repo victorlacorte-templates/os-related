@@ -1,0 +1,50 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/*.egg-info": true,
+    "**/.next": true
+  },
+
+  "files.watcherExclude": {
+    "**/.cache/**": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.next/**": true
+  },
+
+  "extensions.ignoreRecommendations": true,
+  "telemetry.enableTelemetry": false,
+  "window.zoomLevel": 1,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false,
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+
+  // Project settings
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}
