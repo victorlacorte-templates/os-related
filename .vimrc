@@ -15,6 +15,7 @@ set textwidth=79
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
+let g:markdown_folding = 1
 
 " Enable folding with the spacebar
 nnoremap <space> za
