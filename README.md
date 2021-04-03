@@ -96,3 +96,11 @@ Remove the lines added to `~/.bashrc` since we want those lines in
 * https://discourse.bigdaddylinux.com/t/archlinux-install-guide-2020-hardware-or-vm-video/424
 
 * https://dzone.com/articles/arch-linux-installation-on-hw-with-i3-windows-mana
+
+## Utilities
+
+### [NVM](https://github.com/nvm-sh/nvm)
+
+`nvm install node`
+
+`nvm install-latest-npm`
